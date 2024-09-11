@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localizar IP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Localizador de IP</h2>
+        <input type="text" id="inputData" placeholder="Digite o IP">
+        <button onclick="enviarDados()">Buscar dados</button>
+
+        <div id="responseMessage">
+            <p><span class="result-title">País:</span> <span id="country" class="result-value"></span></p>
+            <p><span class="result-title">Cidade:</span> <span id="city" class="result-value"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
