@@ -16,7 +16,7 @@ public class IpService {
             throw new RuntimeException(e);
         }
     }
-
+//
     private IpDto getInfoIp(InetSocketAddress ip) throws Exception {
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
